@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="igor.com.br.projeto.Main_inicio">
+    <item
+        android:id="@+id/refeicao"
+        android:title="Refeições"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/roupa"
+        android:title="Vestuario" />
+    <item
+        android:id="@+id/entre"
+        android:title="Entretenimento"/>
+
+    <item android:id="@+id/conta"
+        android:title="Residencial"/>
+
+
+
+</menu>

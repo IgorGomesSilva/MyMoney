@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="igor.com.br.projeto.Main_inicio">
+    <item
+        android:id="@+id/novo"
+        android:title="Novo Item"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/grahproupa"
+        android:title="Grafico Mês Atual"/>
+
+    <item android:id="@+id/groupa"
+        android:title="Grafico Mês Anterior"/>
+
+
+</menu>

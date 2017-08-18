@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tela_inicio"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="igor.com.br.money.entidades.Main_inicio"
+    android:weightSum="1">
+
+    <TextView
+        android:text="Categorias"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="?attr/colorPrimaryDark"
+        android:textStyle="normal|bold|italic"
+         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" "/>
+
+    <ImageView
+        android:id="@+id/refeicao"
+        android:src="@drawable/c"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="329dp"
+        android:layout_height="94dp"
+        android:layout_weight="0.08" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" "/>
+
+
+    <ImageView
+        android:id="@+id/roupa"
+        android:src="@drawable/ro"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="206dp"
+        android:layout_height="65dp"
+        android:layout_weight="0.05" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" "/>
+
+    <ImageView
+        android:id="@+id/entre"
+        android:src="@drawable/entre"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="184dp"
+        android:layout_height="51dp"
+        android:layout_weight="0.17" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" "/>
+
+
+    <ImageView
+        android:id="@+id/casa"
+        android:src="@drawable/casa"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="228dp"
+        android:layout_height="51dp"
+        android:layout_weight="0.25" />
+
+</LinearLayout>
